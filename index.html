@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Curso de Férias / 2025 do Colégio Carbonell</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #f9fafb;
+    color: #242c64;
+  }
+
+  header {
+    background: #242c64;
+    color: #f9bc4b;
+    padding: 2rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+  }
+
+  header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+
+  header p {
+    margin-top: 0.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #f9bc4bcc;
+  }
+
+  main {
+    max-width: 960px;
+    margin: 2rem auto 3rem auto;
+    padding: 0 1rem;
+  }
+
+  .course-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    gap: 1.5rem;
+  }
+
+  .course-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 0.08);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    border: 2px solid transparent;
+  }
+  .course-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 16px rgb(0 0 0 / 0.12);
+    border-color: #cc2c24;
+  }
+
+  .course-date {
+    font-weight: 700;
+    color: #f9bc4b;
+    margin-bottom: 0.4rem;
+    font-size: 0.9rem;
+  }
+
+  .course-title {
+    font-weight: 700;
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+    color: #242c64;
+  }
+
+  .course-session {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    color: #cc2c24;
+    text-transform: capitalize;
+  }
+
+  .course-time {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.8rem;
+  }
+
+  .course-desc {
+    flex-grow: 1;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    color: #444;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    color: #555;
+    font-size: 0.9rem;
+    border-top: 1px solid #ddd;
+  }
+
+  @media (max-width: 400px) {
+    header h1 {
+      font-size: 1.4rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Curso de Férias / 2025 do Colégio Carbonell</h1>
+  <p>Incrições serão abertas amanhã após as 12h</p>
+</header>
+
+<main>
+  <section class="course-list">
+    <article class="course-card">
+      <div class="course-date">07/07</div>
+      <h2 class="course-title">Desvendando o Google Drive – Nível 1</h2>
+      <div class="course-session">manhã</div>
+      <div class="course-time">08:30 – 10:00</div>
+      <p class="course-desc">Navegação, criação de pastas e organização básica.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">07/07</div>
+      <h2 class="course-title">Planilhas Google – Do zero</h2>
+      <div class="course-session">tarde</div>
+      <div class="course-time">14:00 – 15:30</div>
+      <p class="course-desc">Introdução, fórmulas simples e organização de dados.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">08/07</div>
+      <h2 class="course-title">Gmail e Chrome como ferramentas de produtividade</h2>
+      <div class="course-session">manhã</div>
+      <div class="course-time">08:30 – 10:00</div>
+      <p class="course-desc">Filtros, etiquetas, respostas automáticas e extensões úteis.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">08/07</div>
+      <h2 class="course-title">Automatizando processos (Autocrat e similares)</h2>
+      <div class="course-session">tarde</div>
+      <div class="course-time">14:00 – 15:30</div>
+      <p class="course-desc">Criação de fluxos automáticos com Google Forms + complementos.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">10/07</div>
+      <h2 class="course-title">Planilhas Google – Nível intermediário</h2>
+      <div class="course-session">manhã</div>
+      <div class="course-time">08:30 – 10:00</div>
+      <p class="course-desc">Funções mais avançadas, filtros e validação de dados.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">10/07</div>
+      <h2 class="course-title">Docs e Apresentações Google – Do zero</h2>
+      <div class="course-session">tarde</div>
+      <div class="course-time">14:00 – 15:30</div>
+      <p class="course-desc">Colaboração em tempo real, formatação e compartilhamento.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">11/07</div>
+      <h2 class="course-title">Organizando fluxos de trabalho com IA: NotebookLM, ChatGPT e Gemini</h2>
+      <div class="course-session">manhã</div>
+      <div class="course-time">08:30 – 10:00</div>
+      <p class="course-desc">Organização de ideias, planejamento e automação com IA.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">11/07</div>
+      <h2 class="course-title">Google Vids: criando vídeos, tutoriais e portfólios</h2>
+      <div class="course-session">tarde</div>
+      <div class="course-time">14:00 – 15:30</div>
+      <p class="course-desc">Como criar vídeos simples para treinamentos e projetos.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">15/07</div>
+      <h2 class="course-title">Canva na prática: Dicas e truques para acelerar seus projetos</h2>
+      <div class="course-session">manhã</div>
+      <div class="course-time">08:30 – 10:00</div>
+      <p class="course-desc">Templates, recursos visuais, apresentações e materiais gráficos.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">15/07</div>
+      <h2 class="course-title">Google Sites: criando páginas e portais internos com facilidade</h2>
+      <div class="course-session">tarde</div>
+      <div class="course-time">14:00 – 15:30</div>
+      <p class="course-desc">Estruturação de sites, publicação e integração com Google Drive.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">16/07</div>
+      <h2 class="course-title">Ferramentas Google para reuniões mais eficientes: Meet + Agenda + Tarefas integradas</h2>
+      <div class="course-session">manhã</div>
+      <div class="course-time">08:30 – 10:00</div>
+      <p class="course-desc">Organização de reuniões, agendamento e acompanhamento de tarefas.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">16/07</div>
+      <h2 class="course-title">Google Forms avançado: criando formulários interativos com validações</h2>
+      <div class="course-session">tarde</div>
+      <div class="course-time">14:00 – 15:30</div>
+      <p class="course-desc">Lógica de perguntas, validações e personalização.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">17/07</div>
+      <h2 class="course-title">Desvendando o Google Drive – Nível 1</h2>
+      <div class="course-session">manhã</div>
+      <div class="course-time">08:30 – 10:00</div>
+      <p class="course-desc">Navegação, criação de pastas e organização básica.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">17/07</div>
+      <h2 class="course-title">Planilhas Google – Do zero</h2>
+      <div class="course-session">tarde</div>
+      <div class="course-time">14:00 – 15:30</div>
+      <p class="course-desc">Introdução, fórmulas simples e organização de dados.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">18/07</div>
+      <h2 class="course-title">Gmail e Chrome como ferramentas de produtividade</h2>
+      <div class="course-session">manhã</div>
+      <div class="course-time">08:30 – 10:00</div>
+      <p class="course-desc">Filtros, etiquetas, respostas automáticas e extensões úteis.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">18/07</div>
+      <h2 class="course-title">Automatizando processos (Autocrat e similares)</h2>
+      <div class="course-session">tarde</div>
+      <div class="course-time">14:00 – 15:30</div>
+      <p class="course-desc">Criação de fluxos automáticos com Google Forms + complementos.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">19/07</div>
+      <h2 class="course-title">Planilhas Google – Nível intermediário</h2>
+      <div class="course-session">manhã</div>
+      <div class="course-time">08:30 – 10:00</div>
+      <p class="course-desc">Funções mais avançadas, filtros e validação de dados.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">19/07</div>
+      <h2 class="course-title">Docs e Apresentações Google – Do zero</h2>
+      <div class="course-session">tarde</div>
+      <div class="course-time">14:00 – 15:30</div>
+      <p class="course-desc">Colaboração em tempo real, formatação e compartilhamento.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">18/07</div>
+      <h2 class="course-title">Organizando fluxos de trabalho com IA: NotebookLM, ChatGPT e Gemini</h2>
+      <div class="course-session">manhã</div>
+      <div class="course-time">08:30 – 10:00</div>
+      <p class="course-desc">Organização de ideias, planejamento e automação com IA.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">18/07</div>
+      <h2 class="course-title">Google Vids: criando vídeos, tutoriais e portfólios</h2>
+      <div class="course-session">tarde</div>
+      <div class="course-time">14:00 – 15:30</div>
+      <p class="course-desc">Como criar vídeos simples para treinamentos e projetos.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">19/07</div>
+      <h2 class="course-title">Canva na prática: Dicas e truques para acelerar seus projetos</h2>
+      <div class="course-session">manhã</div>
+      <div class="course-time">08:30 – 10:00</div>
+      <p class="course-desc">Templates, recursos visuais, apresentações e materiais gráficos.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">19/07</div>
+      <h2 class="course-title">Google Sites: criando páginas e portais internos com facilidade</h2>
+      <div class="course-session">tarde</div>
+      <div class="course-time">14:00 – 15:30</div>
+      <p class="course-desc">Estruturação de sites, publicação e integração com Google Drive.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">29/07</div>
+      <h2 class="course-title">Ferramentas Google para reuniões mais eficientes: Meet + Agenda + Tarefas integradas</h2>
+      <div class="course-session">manhã</div>
+      <div class="course-time">08:30 – 10:00</div>
+      <p class="course-desc">Organização de reuniões, agendamento e acompanhamento de tarefas.</p>
+    </article>
+
+    <article class="course-card">
+      <div class="course-date">29/07</div>
+      <h2 class="course-title">Google Forms avançado: criando formulários interativos com validações</h2>
+      <div class="course-session">tarde</div>
+      <div class="course-time">14:00 – 15:30</div>
+      <p class="course-desc">
